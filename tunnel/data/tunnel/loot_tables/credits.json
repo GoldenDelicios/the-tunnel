@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:written_book",
+                    "weight": 1,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{pages: ['{\"text\":\"The Tunnel Credits\\\\n------------------- \\\\nDaMarine:\\\\n          - Design\\\\n\\\\nMCfineplayer:\\\\n          - Development\\\\n\\\\nFrogperson:\\\\n          - Testing\\\\n\"}','{\"text\":\"The Tunnel Statistics\\\\n-------------------\\\\n\\\\nCommands Used:\\\\n          - 661 Lines\\\\n\\\\nDevelopment Hours:\\\\n          - 475+ Hours\\\\n\\\\nEdits Made To Levels:\\\\n          - Countless\\\\n\\\\nTNT Yeeters Built:\\\\n          - 4 Yeeters\"}','{\"text\":\"The Tunnel Indev\\\\n-------------------\\\\n\\\\nDevelopment Began:\\\\n          - 23/09/2017\\\\n\\\\nDevelopment Hours:\\\\n          - 475+ Hours\\\\n\\\\nDevelopment Screenshots\",\"color\":\"dark_blue\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.google.co.uk/\"}}\"}'], author: \"MCfineplayer\", title: \"Tunnel Credits\", resolved: 1b}"
+						}
+					]
+                }
+            ]
+        }
+    ]
+}

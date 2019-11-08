@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "exitTunnel": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:end_gateway"
+            }
+        }
+    },
+    "rewards": {
+		"function": "tunnel:exit/eatchorus"
+	},
+    "parent": "tunnel:hidden/root"
+}

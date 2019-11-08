@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "tunnel:stage3/entrance",
+    "tunnel:stage4/entrance",
+    "tunnel:mancave/entrance"
+  ]
+}

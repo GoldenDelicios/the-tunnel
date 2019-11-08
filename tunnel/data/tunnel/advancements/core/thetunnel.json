@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "The Tunnel",
+            "color": "white"
+        },
+        "description": {
+            "text": "Have you found something, or has it found you?",
+            "color": "dark_gray"
+        },
+        "icon": {
+            "item": "minecraft:stone_bricks"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "minecraft:textures/block/black_concrete.png"
+    },
+    "criteria": {
+        "enterTunnel": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

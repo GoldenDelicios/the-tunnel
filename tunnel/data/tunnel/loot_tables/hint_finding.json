@@ -1,0 +1,75 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:written_book",
+                    "weight": 1,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{pages: ['{\"text\":\"An opened door... it gives us eyes.\\\\n\\\\nCan we go beyond seeing beyond?\\\\n\"}'], author: \"???\", title: \"00001001\", resolved: 1b}"
+						}
+					]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:written_book",
+                    "weight": 1,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{pages: ['{\"text\":\"Darkness surrounds,\\\\nWater above,\\\\nEyes ever present.\"}'], author: \"???\", title: \"00001010\", resolved: 1b}"
+						}
+					]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:written_book",
+                    "weight": 1,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{pages: ['{\"text\":\"Isn\\'t this where we came in?\\\\n\"}'], author: \"???\", title: \"00001100\", resolved: 1b}"
+						}
+					]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:written_book",
+                    "weight": 1,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{pages: ['{\"text\":\"Seek purity.\\\\n\\\\nPure as when they came from above.\\\\n\\\\nThose embranced by the dark see all.\"}'], author: \"???\", title: \"00001101\", resolved: 1b}"
+						}
+					]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:written_book",
+                    "weight": 1,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{pages: ['{\"text\":\"They fear the emptiness.\\\\n\\\\nFear shall keep them in the light.\\\\n\"}'], author: \"???\", title: \"00001110\", resolved: 1b}"
+						}
+					]
+                },
+                                {
+                    "type": "item",
+                    "name": "minecraft:written_book",
+                    "weight": 1,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{pages: ['{\"text\":\"Absence below.\\\\n\\\\nAbsence within.\\\\n\"}'], author: \"???\", title: \"00001111\", resolved: 1b}"
+						}
+					]
+                }
+            ]
+        }
+    ]
+}

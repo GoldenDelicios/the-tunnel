@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Traveller",
+            "color": "white"
+        },
+        "description": {
+            "text": "Restore the passage of time",
+            "color": "dark_gray"
+        },
+        "icon": {
+            "item": "minecraft:chiseled_stone_bricks"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "enterCompleted": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "tunnel:core/thepast"
+}

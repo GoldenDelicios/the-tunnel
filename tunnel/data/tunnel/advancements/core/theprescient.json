@@ -1,0 +1,42 @@
+{
+    "display": {
+        "title": {
+            "text": "The Prescient",
+            "color": "white"
+        },
+        "description": {
+            "text": "As above, so below",
+            "color": "dark_gray"
+        },
+        "icon": {
+            "item": "minecraft:cracked_stone_bricks"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "enterFloor": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"dimension": "minecraft:the_end",
+				"position": {
+					"x": {
+						"min": 2849,
+						"max": 2856
+					},
+					"y": {
+						"min": 26,
+						"max": 27
+					},
+					"z": {
+						"min": 2771,
+						"max": 2775
+					}
+				}
+			}
+        }
+    },
+    "parent": "tunnel:core/thefuture"
+}

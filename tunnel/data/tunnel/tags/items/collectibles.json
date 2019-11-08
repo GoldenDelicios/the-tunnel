@@ -1,0 +1,25 @@
+{
+	"values": [
+		"minecraft:chorus_fruit",
+		"minecraft:damaged_anvil",
+		"minecraft:iron_ingot",
+		"minecraft:iron_nugget",
+		"minecraft:redstone_block",
+		"minecraft:redstone",
+		"minecraft:gunpowder",
+		"minecraft:cobblestone",
+		"#minecraft:stone_bricks",
+		"minecraft:iron_bars",
+		"minecraft:bucket",
+		"minecraft:dispenser",
+		"minecraft:rail",
+		"minecraft:stone_button",
+		"minecraft:minecart",
+		"minecraft:tnt",
+		"minecraft:music_disc_11",
+		"minecraft:item_frame",
+		"minecraft:iron_trapdoor",
+		"minecraft:shears",
+		"minecraft:heavy_weighted_pressure_plate"
+	]
+}

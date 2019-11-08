@@ -1,0 +1,28 @@
+{
+    "criteria": {
+        "enterVoid": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "minecraft:the_end",
+				"position": {
+                    "x": {
+                        "min": -375,
+						"max": 375
+                    },
+                    "y": {
+                        "min": -500,
+						"max": 0
+                    },
+                    "z": {
+                        "min": -375,
+						"max": 375
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+		"function": "tunnel:enter/blindleap"
+	},
+    "parent": "tunnel:hidden/root"
+}

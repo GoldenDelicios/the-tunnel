@@ -1,0 +1,53 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:written_book",
+                    "weight": 1,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{pages: ['{\"text\":\"A broken door... it branches betwixt.\\\\n\\\\nCan we go beyond knowing beyond?\\\\n\"}'], author: \"???\", title: \"00010000\", resolved: 1b}"
+						}
+					]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:written_book",
+                    "weight": 1,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{pages: ['{\"text\":\"Treasure today,\\\\nA gift, a present,\\\\nFor all is lost in time.\"}'], author: \"???\", title: \"00010001\", resolved: 1b}"
+						}
+					]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:written_book",
+                    "weight": 1,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{pages: ['{\"text\":\"Isn\\'t this where we came in?\\\\n\"}'], author: \"???\", title: \"00010010\", resolved: 1b}"
+						}
+					]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:written_book",
+                    "weight": 1,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{pages: ['{\"text\":\"Absolute power corrupts absolutely.\\\\n\"}'], author: \"???\", title: \"00010011\", resolved: 1b}"
+						}
+					]
+                }
+            ]
+        }
+    ]
+}

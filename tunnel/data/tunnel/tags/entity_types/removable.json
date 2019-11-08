@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:enderman",
+    "minecraft:shulker",
+    "minecraft:villager",
+    "minecraft:chicken",
+    "minecraft:tnt_minecart",
+    "minecraft:item_frame",
+    "minecraft:arrow",
+    "minecraft:experience_orb",
+    "minecraft:item",
+    "minecraft:falling_block"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:written_book",
+                    "weight": 1,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{pages: ['{\"text\":\"All cracks... converge.\\\\n\\\\nCan we go beyond being beyond?\\\\n\"}'], author: \"???\", title: \"00010100\", resolved: 1b}"
+						}
+					]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:written_book",
+                    "weight": 1,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{pages: ['{\"text\":\"Even in darkness,\\\\nEmbers give light.\\\\nEmbers reveal the endless night.\"}'], author: \"???\", title: \"00010101\", resolved: 1b}"
+						}
+					]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:written_book",
+                    "weight": 1,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{pages: ['{\"text\":\"isntthiswherewecamein\\\\nisntthiswherewecamein\\\\nisntthiswherewecamein\\\\nisntthiswherewecamein\\\\nisntthiswherewecamein\\\\nisntthiswherewecamein\\\\nisntthiswherewecamein\\\\nisntthiswherewecamein\\\\nisntthiswherewecamein\\\\nisntthiswherewecamein\\\\nisntthiswherewecamein\\\\nisntthiswherewecamein\\\\nisntthiswherewecamein\\\\nisntthiswherewecamein\\\\nisntthiswherewecamein\\\\nisntthiswherewecamein\\\\nisntthiswherewecamein\\\\nisntthiswherewecamein\\\\nisntthiswherewecamein\\\\nisntthiswherewecamein\\\\nisntthiswherewecamein\\\\nisntthiswherewecamein\\\\nisntthiswherewecameinisntthiswherewecameinisntthiswherewecameinisntthiswherewecameinisntthiswherewecameinisntthiswherewecameinisntthiswherewecameinisntthiswherewecamein\\\\n\"}'], author: \"???\", title: \"00010110\", resolved: 1b}"
+						}
+					]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:written_book",
+                    "weight": 1,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{pages: ['{\"text\":\"Absolute power corrupts absolutely.\\\\n\"}'], author: \"???\", title: \"00010111\", resolved: 1b}"
+						}
+					]
+                }
+            ]
+        }
+    ]
+}

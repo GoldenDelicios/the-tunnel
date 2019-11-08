@@ -1,0 +1,42 @@
+{
+    "display": {
+        "title": {
+            "text": "The Past",
+            "color": "white"
+        },
+        "description": {
+            "text": "Have you found something, or has it found you?",
+            "color": "dark_gray"
+        },
+        "icon": {
+            "item": "minecraft:stone_bricks"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "enterPast": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"dimension": "minecraft:the_end",
+				"position": {
+					"x": {
+						"min": 2857,
+						"max": 2861
+					},
+					"y": {
+						"min": 32,
+						"max": 36
+					},
+					"z": {
+						"min": 2750,
+						"max": 2757
+					}
+				}
+			}
+        }
+    },
+    "parent": "tunnel:core/theprescient"
+}

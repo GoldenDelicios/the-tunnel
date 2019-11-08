@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "slayDragon": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+					"type": "minecraft:ender_dragon"
+				}
+            }
+        }
+    },
+    "rewards": {
+		"function": "tunnel:hints/genloot"
+	},
+    "parent": "tunnel:hidden/root"
+}

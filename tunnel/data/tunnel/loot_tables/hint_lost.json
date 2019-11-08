@@ -1,0 +1,86 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:written_book",
+                    "weight": 1,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{pages: ['{\"text\":\"An opened door... it gives us eyes.\\\\n\\\\nCan we see beyond?\\\\n\"}'], author: \"???\", title: \"00000001\", resolved: 1b}"
+						}
+					]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:written_book",
+                    "weight": 1,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{pages: ['{\"text\":\"Seek purity.\\\\n\\\\nPure as when they came from above.\\\\n\"}'], author: \"???\", title: \"00000010\", resolved: 1b}"
+						}
+					]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:written_book",
+                    "weight": 1,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{pages: ['{\"text\":\"Those embraced by the dark see all.\\\\n\"}'], author: \"???\", title: \"00000011\", resolved: 1b}"
+						}
+					]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:written_book",
+                    "weight": 1,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{pages: ['{\"text\":\"Isn\\'t this where we came in?\\\\n\"}'], author: \"???\", title: \"00000100\", resolved: 1b}"
+						}
+					]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:written_book",
+                    "weight": 1,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{pages: ['{\"text\":\"Have you found something, or has it found you?\\\\n\"}'], author: \"???\", title: \"00000101\", resolved: 1b}"
+						}
+					]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:written_book",
+                    "weight": 1,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{pages: ['{\"text\":\"They fear their emptiness.\\\\n\\\\nFear shall keep them in the light.\\\\n\"}'], author: \"???\", title: \"00000110\", resolved: 1b}"
+						}
+					]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:written_book",
+                    "weight": 1,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{pages: ['{\"text\":\"Absence below.\\\\n\\\\nAbsence within.\\\\n\"}'], author: \"???\", title: \"00000111\", resolved: 1b}"
+						}
+					]
+                }
+            ]
+        }
+    ]
+}

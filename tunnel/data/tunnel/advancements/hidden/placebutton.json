@@ -1,0 +1,31 @@
+{
+    "criteria": {
+        "placeButton": {
+            "trigger": "minecraft:placed_block",
+			"conditions": {
+				"block": "minecraft:stone_button",
+				"location": {
+					"dimension": "minecraft:the_end",
+					"position": {
+						"x": {
+							"min": 2848,
+							"max": 2862
+						},
+						"y": {
+							"min": 23,
+							"max": 43
+						},
+						"z": {
+							"min": 2768,
+							"max": 2778
+						}
+					}
+				}
+			}
+        }
+    },
+    "rewards": {
+		"function": "tunnel:stage3/placebutton"
+	},
+    "parent": "tunnel:hidden/root"
+}

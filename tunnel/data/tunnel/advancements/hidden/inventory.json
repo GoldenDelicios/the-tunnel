@@ -1,0 +1,31 @@
+{
+    "criteria": {
+        "inventory": {
+            "trigger": "minecraft:inventory_changed"
+        },
+		"occupant": {
+			"trigger": "location",
+			"conditions": {
+				"dimension": "minecraft:the_end",
+				"position": {
+					"x": {
+						"min": 2828,
+						"max": 2875
+					},
+					"y": {
+						"min": 19,
+						"max": 52
+					},
+					"z": {
+						"min": 2734,
+						"max": 2789
+					}
+				}
+			}
+		}
+    },
+    "rewards": {
+		"function": "tunnel:advancements/inventory"
+	},
+    "parent": "tunnel:hidden/root"
+}

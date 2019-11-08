@@ -1,0 +1,28 @@
+{
+    "criteria": {
+        "exitTunnel": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "minecraft:the_end",
+				"position": {
+                    "x": {
+                        "min": 2856,
+                        "max": 2862
+                    },
+                    "y": {
+                        "min": 25,
+                        "max": 36
+                    },
+                    "z": {
+                        "min": 2782,
+                        "max": 2787
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+		"function": "tunnel:exit/exittunnel"
+	},
+    "parent": "tunnel:hidden/root"
+}

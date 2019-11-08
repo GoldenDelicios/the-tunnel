@@ -1,0 +1,28 @@
+{
+    "criteria": {
+        "enterBox": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "minecraft:the_end",
+				"position": {
+                    "x": {
+                        "min": 2829,
+                        "max": 2874
+                    },
+                    "y": {
+                        "min": 20,
+                        "max": 51
+                    },
+                    "z": {
+                        "min": 2735,
+                        "max": 2788
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+		"function": "tunnel:exit/denyaccess"
+	},
+    "parent": "tunnel:hidden/root"
+}
